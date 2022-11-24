@@ -1,0 +1,40 @@
+header {
+    margin-top: 45px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #eaeaea;
+}
+.headerLeft {
+    &Logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+    }
+    &Title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    &Subtitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #9d9d9d;
+    }
+}
+.headerRight {
+    display: flex;
+    align-items: center;
+    span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5c5c5c;
+    }
+}
